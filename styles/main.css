@@ -1,0 +1,240 @@
+*{
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.home-background-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/cloudy.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-background-container h1 {
+  font-weight: 900;
+  color: rgba(66, 66, 66, 1);
+  font-size: 100px;
+  margin-left: 10px;
+  margin-bottom: 380px;
+}
+
+
+.home-lower-container {
+  height: 10vh;
+  width: 100%;
+}
+
+.home-button-container {
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+.home-button-container button{
+  /*background-color: #424242;*/
+  color: white;
+  transition: 1.2s;
+}
+
+.home-button-container button:hover {
+  transform: scale(1.4);
+  transition: .2s;
+}
+
+.home-skills-button{
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+}
+
+.home-portfolio-button {
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+}
+
+.home-about-button {
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+}
+
+.home-contact {
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+
+}
+
+.footer {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer button {
+  font-weight: bold;
+  color: #4A4A4A;
+  background-color: transparent;
+  transition: 1s;
+  outline: none;
+}
+
+.footer button:hover{
+  transform: scale(1.4);
+  transition: .2s;
+}
+
+
+.about-main-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/Hiker.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 95%;
+  background-size: cover;
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
+.about-right-container {
+  height: 60vh;
+  width: 55%;
+  float: right;
+  margin-right: 6%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header {
+  width: 100%;
+  /*margin-top: 5vh;*/
+}
+
+.about-header h2 {
+  font-size: 4rem;
+  color: rgba(60, 51, 50, .8);
+  margin-top: -70px;
+}
+
+/*.about-text-container {
+  height: 50vh;
+  width: 55%;
+  float: right;
+  margin-top: 8vh;
+  margin-right: 7%;
+  text-align: center;
+}*/
+
+.about-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgba(60, 51, 50, .8);
+  margin-top: 15px;
+  line-height: 35px;
+}
+
+.skills-main-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/skills.jpeg');
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  background-size: cover;
+}
+
+/*.skills-h2-container {
+  height: 21vh;
+  width: 20%;
+  padding-top: 6.5vh;
+  display: inline-block;;
+  background-color: rgba(0, 0, 0, .5);
+}*/
+
+/*.skills-h2-container h2 {
+  font-size: 4rem;
+  margin-left: 20%;
+  color: rgba(255, 255, 255, 1);
+}*/
+
+.skills-svg-container {
+  height: 100vh;
+  width: 100%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+.skills-svg-container div {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.skills-svg-container img {
+  height: 10vh;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.skills-svg-container p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.portfolio-main-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/portfolio.jpeg');
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  background-size: cover;
+}
+
+.portfolio-div-container {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.portfolio-div-container div {
+  height: 46.5vh;
+  width: 33.3%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.portfolio-footer-container {
+  height: 7vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}

@@ -128,6 +128,11 @@ font-family: 'Montserrat', sans-serif;
   line-height: 30px;
 }
 
+.about-easter-egg {
+  height: 10px;
+  width: 10px;
+}
+
  /*######  ##    ## #### ##       ##        ######
   ##    ## ##   ##   ##  ##       ##       ##    ##
   ##       ##  ##    ##  ##       ##       ##
@@ -1995,4 +2000,30 @@ font-family: 'Montserrat', sans-serif;
    transition: .2s;
    text-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
  }
+}
+
+/*########    ###     ######  ######## ######## ########     ########  ######    ######
+  ##         ## ##   ##    ##    ##    ##       ##     ##    ##       ##    ##  ##    ##
+  ##        ##   ##  ##          ##    ##       ##     ##    ##       ##        ##
+  ######   ##     ##  ######     ##    ######   ########     ######   ##   #### ##   ####
+  ##       #########       ##    ##    ##       ##   ##      ##       ##    ##  ##    ##
+  ##       ##     ## ##    ##    ##    ##       ##    ##     ##       ##    ##  ##    ##
+  ######## ##     ##  ######     ##    ######## ##     ##    ########  ######    ######*/
+
+
+.easter-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.poop {
+  margin-bottom: 300px;
+}
+
+.flying {
+  margin-bottom: 200px;
 }

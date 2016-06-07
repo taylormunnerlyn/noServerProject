@@ -24,4 +24,8 @@ angular.module('app', ['ui.router'])
       url: '/contact',
       templateUrl: './views/contact-tmpl.html'
     })
+    .state('egg', {
+      url: '/easter',
+      templateUrl: './views/egg-tmpl.html'
+    })
 })

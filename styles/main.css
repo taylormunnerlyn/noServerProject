@@ -1638,7 +1638,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
 
  /*##     ##  #######  ##     ## ########
    ##     ## ##     ## ###   ### ##
@@ -1738,16 +1738,16 @@ font-family: 'Montserrat', sans-serif;
  .about-header h2 {
    font-size: 3.3rem;
    color: rgba(60, 51, 50, .8);
-   margin-top: -55px;
+   margin-top: -60px;
  }
 
  .about-text {
-   font-size: .9rem;
+   font-size: .8rem;
    font-weight: bold;
    color: rgba(60, 51, 50, .8);
    margin-top: 9px;
    margin-left: 10px;
-   line-height: 18px;
+   line-height: 17px;
  }
 
   /*######  ##    ## #### ##       ##        ######

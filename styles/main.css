@@ -284,6 +284,12 @@ font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
 }
 
+.contact-block-container a {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, .0);
+  margin-top: 20px;
+}
+
 .contact-footer-container {
   height: 7vh;
   width: 100%;
@@ -596,6 +602,12 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .contact-block-container h3 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .0);
+    margin-top: 5px;
+  }
+
+  .contact-block-container a {
     font-size: 1rem;
     color: rgba(255, 255, 255, .0);
     margin-top: 5px;
@@ -914,6 +926,12 @@ font-family: 'Montserrat', sans-serif;
        }
 
        .contact-block-container h3 {
+         font-size: 1rem;
+         color: rgba(255, 255, 255, .0);
+         margin-top: 5px;
+       }
+
+       .contact-block-container a {
          font-size: 1rem;
          color: rgba(255, 255, 255, .0);
          margin-top: 5px;
@@ -1253,6 +1271,12 @@ font-family: 'Montserrat', sans-serif;
     /*margin-top: px;*/
   }
 
+  .contact-block-container a {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .0);
+    /*margin-top: 20px;*/
+  }
+
   .contact-footer-container {
     height: 7vh;
     width: 100%;
@@ -1584,6 +1608,12 @@ font-family: 'Montserrat', sans-serif;
     font-size: .9rem;
     color: rgba(255, 255, 255, .0);
     /*margin-top: px;*/
+  }
+
+  .contact-block-container a {
+    font-size: .9rem;
+    color: rgba(255, 255, 255, .0);
+    /*margin-top: 20px;*/
   }
 
   .contact-footer-container {
@@ -1918,6 +1948,12 @@ font-family: 'Montserrat', sans-serif;
    font-size: .8rem;
    color: rgba(255, 255, 255, .0);
    /*margin-top: px;*/
+ }
+
+ .contact-block-container a {
+   font-size: .8rem;
+   color: rgba(255, 255, 255, .0);
+   /*margin-top: 20px;*/
  }
 
  .contact-footer-container {

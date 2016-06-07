@@ -12,6 +12,7 @@ angular.module('app')
         if (elem.parent().hasClass('home-background-container')) {
           elem.css('font-size', '200px')
           elem.css('cursor', 'pointer')
+          elem.css('text-shadow', '16px 16px 15px  rgba(0, 0, 0, .5)')
         }
         else {
         elem.css('color', '#AD9691');
@@ -24,6 +25,7 @@ angular.module('app')
         }
         else if (elem.parent().hasClass('home-background-container')) {
           elem.css('font-size', '175px')
+          elem.css('text-shadow', '1px 1px 5px  rgba(0, 0, 0, .8)')
         }
         else {
           elem.css('color', 'white');

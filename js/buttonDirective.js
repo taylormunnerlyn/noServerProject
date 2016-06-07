@@ -9,12 +9,21 @@ angular.module('app')
       //   elem.css('box-shadow', 'none')
       // });
       elem.on('mouseenter', function(){
-        console.log($window.getComputedStyle(elem[0]));
-        elem.css('color', '#C89987');
+        if (elem.parent().hasClass('home-background-container')) {
+          elem.css('font-size', '200px')
+          elem.css('cursor', 'pointer')
+        }
+        else {
+        elem.css('color', '#AD9691');
+        elem.css('cursor', 'pointer')
+      }
       });
       elem.on('mouseleave', function(){
         if (elem.parent().hasClass('footer')) {
           elem.css('color', '#4A4A4A');
+        }
+        else if (elem.parent().hasClass('home-background-container')) {
+          elem.css('font-size', '175px')
         }
         else {
           elem.css('color', 'white');
